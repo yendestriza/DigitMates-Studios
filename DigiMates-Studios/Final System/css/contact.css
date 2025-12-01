@@ -1,0 +1,84 @@
+.contact-container {
+    background-color: #000;
+    color: #fff;
+    margin: 0 -20px;
+    padding: 90px 20px 100px;
+    position: relative;
+}
+
+.title-talk {
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    padding-left: 100px;
+    position: absolute;
+    top: 85px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 750px;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+}
+
+input, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Newake', sans-serif;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+
+.name {
+    flex: 1;
+    min-width: 0;
+}
+
+.email {
+    flex: 1;
+    min-width: 0;
+}
+
+.subject {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    border-bottom: 2px solid #fff;
+}
+
+.send-btn {
+    background-color: #d9d9d9;
+    color: #000;
+    border: none;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3    s;
+    margin-top: 10px;
+    font-family: 'Newake', sans-serif;
+}
+
+.send-btn:hover {
+    background-color: #fff;
+}

@@ -1,0 +1,334 @@
+/*About Section*/
+.about-container {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+    padding: 100px 20px;
+    position: relative;
+}
+
+/*About us part content*/
+.about-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 80px;
+    line-height: 1.1;
+    display: block;
+}
+
+.about-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-left: 80px;
+    max-width: 650px;
+}
+
+/*The first the Image content*/
+.shape-container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -50px;
+    top: 310px;
+}
+
+.picture {
+    background-image: url('../img/group.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    z-index: 2;
+}
+
+.shape {
+    position: absolute;
+    width: 450px;
+    height: 440px;
+    background-color: #D2E8FF;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    border-radius: 50%;
+    
+}
+
+.shape-container::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    z-index: 0;
+    right: -50px;
+    bottom: 60px;
+}
+
+/*How we started content*/
+.how-we-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    line-height: 1.1;
+    margin: 0;
+    text-align: right;
+    display: block;
+    margin-top: 50px;
+    padding-right: 90px
+}
+
+.how-we-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    padding-right: 90px;
+    max-width: 650px;
+}
+
+/*The second image content*/
+.shape-container-two {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 1100px;
+    top: 750px;
+}
+
+.picture-two {
+    background-image: url('../img/2nd place.png');
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    z-index: 10;
+}
+
+.shape-two {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #D2E8FF;
+    border-radius: 50%;
+    top: 0; 
+    left: 0;
+    z-index: 5;
+}
+
+.shape-container-two::before {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    bottom: 40px;
+    left: -60px;
+    z-index: 0;
+}
+
+/* Our Goals content */
+.goal-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    line-height: 1.1;
+    margin: 0;
+    display: block;
+    margin-top: 220px;
+    padding-left: 80px;
+}
+
+.vision-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 49px;
+    font-weight: 100;
+    color: #2196F3;
+    display: block;
+    margin-top: 30px;
+    padding-left: 80px;
+}
+
+.vision-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-top: 10px;
+    display: block;
+    max-width: 650px;
+    padding-left: 80px;
+}
+
+.mission-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 49px;
+    font-weight: 100;
+    color: #2196F3;
+    display: block;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+
+.mission-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-top: 10px;
+    display: block;
+    max-width: 650px;
+    padding-left: 80px;
+}
+
+/*Meet our team content*/
+.background {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 -20px;
+    padding: 300px 20px 100px;
+    margin-top: 100px;
+}
+
+.team {
+    font-family: 'Newake', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    line-height: 1.1;
+    margin-top: -200px;
+    display: block;
+    padding-left: 80px;
+}
+
+.team-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-top: 10px;
+    display: block;
+    padding-left: 80px;
+    max-width: 950px;
+    color: #ffffff;
+}
+
+/*Picture of our team*/
+.team-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.slider {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    transition: transform 0.5s ease-in;
+}
+
+.team-member {
+    flex-shrink: 0;
+    width: 300px;
+    cursor: pointer;
+    position: relative;
+    border: 8px;
+    transition: transform 0.4s ease, z-index 0s 0s;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    z-index: 100;
+    transition: transform 0.4s ease, z-index 0s 0s;
+}
+
+.team-member img {
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: filter 0.9s ease;
+}
+
+.team-member:hover img {
+    filter: blur(4px) brightness(0.4);
+}
+
+.member-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    text-align: center;
+}
+
+.team-member:hover .member-info {
+    opacity: 1;
+}
+
+.member-info span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    margin: 0;
+    font-weight: 400;
+    display: block;
+}
+
+.member-info p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/*Arrow Buttons*/
+.arrow-left, .arrow-right {
+    background-color: #034691;
+    color: #ffff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.arrow-left:hover, .arrow-left:hover {
+    background-color: #0066cc;
+}
+
+.arrow-left, .arrow-right {
+    margin-right: 20px;
+}
+

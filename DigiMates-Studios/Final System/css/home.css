@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Newake';
+    src: url('../fonts/newake/NewakeFont-Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    line-height: 1.15;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Header and Main Navigation*/
+.header-nav {
+    background-color: rgba(230, 230, 230, 0.8);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    display: block;
+    position: static;
+    transition: color 0.3s;
+}
+
+.menu li:hover {
+    background-color: #dcdcdc;
+}
+
+.menu li.active {
+    background-color: #dcdcdc;
+}
+
+.menu li.active a {
+    color: #000000;
+}
+
+.menu li a::after,
+.menu li a:hover::after,
+.menu li a.active::after {
+    content: none;
+}
+
+.contact-btn {
+    background-color: #171c26;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+    font-family: 'Newake', sans-serif;
+}
+
+.contact-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hamburger {
+    display: none;
+}
+
+/*Sections*/
+section {
+    padding: 170px 20px;
+}
+
+/*Home Content*/
+.main-content {
+    padding-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 550px;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+}
+.main-content h1{
+    margin: 0 0 0 80px;
+    font-size: 115px;
+    font-weight: normal;
+    font-family: 'Newake', sans-serif;
+}
+.main-content p{
+    margin: 0 0 0 80px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    max-width: 650px;
+}
+
+.cebuano-crafts {
+    position: absolute;
+    bottom: 0;
+    right: 380px;
+    width: 990px;
+    max-width: 1200px;
+    z-index: 10;
+}
+
+.cebuano-crafts img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cebu-island {
+    position: absolute;
+    right: 130px;
+    bottom: 100px;
+    width: 510px;
+    max-width: 1200px;
+    z-index: 30;
+    transform: rotate(-2deg)
+}
+
+.cebu-island img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banscie {
+    position: absolute;
+    right: -20px;
+    bottom: 275px;
+    width: 510px;
+    max-width: 1200px;
+    z-index: 0;
+    transform: rotate(-3deg)
+}
+
+.banscie img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    position: relative;
+    height: 250px;
+    width: auto;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -190px; 
+    background-color: #d9d9d9; 
+    z-index: -1; 
+}
+
+footer img {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+footer h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 1.4;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 1.4;
+    top: 265px;
+    left: 250px;
+}
+
+footer h2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    top: 100px;
+    left: 750px;
+}
+
+footer a {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+footer h3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    top: 225px;
+    left: 750px;
+}
+
+.bantayan {
+    position: absolute;
+    top: 275px;
+    left: 750px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    top: 375px;
+    left: 650px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; 
+    position: absolute;
+    top: 375px; 
+    right: 100px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: 30px;
+    padding: 0; 
+}
+
+

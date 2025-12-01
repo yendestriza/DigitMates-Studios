@@ -1,0 +1,403 @@
+.reviews-container {
+    background-color: #fff;
+    color: #000;
+    margin: 0 -20px;
+    padding: 100px 20px 10px;
+    position: relative;
+}
+
+.testimonials-title {
+    font-family: 'Newake', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    padding-left: 100px;
+    line-height: 1.1;
+    display: block;
+    margin-top: -30px;
+    position: relative;
+    z-index: 5;
+}
+
+.testimonials-row {
+    display: flex;
+    justify-content: center; 
+    gap: 60px; 
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+    margin-top: 60px;  
+}
+
+.card-1 {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    text-align: left; 
+    padding: 30px;
+    border-radius: 20px; 
+            
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.card-2 {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    text-align: left; 
+    padding: 30px;
+    border-radius: 20px; 
+            
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-3 {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    text-align: left; 
+    padding: 30px;
+    border-radius: 20px;
+            
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*---------- inside the card-1 ---------*/
+.name-1 {
+    font-size: 22px;
+    margin: 0;
+    color: #000;
+}
+
+.stars-1 {
+    display: flex;
+}
+
+.stars-1 img {
+    width: 18px;
+    margin-right: 2px;
+}
+
+.feedback-1 {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    min-height: 70px;
+}
+
+.profile-1 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.avatar-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text-1 h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-text-1 p {
+    margin: 2px 0 0 0;
+    font-size: 12px;
+    color: #666;
+}
+
+/*--------- inside the card-2 ---------*/
+.name-2 {
+    font-size: 22px;
+    margin: 0;
+    color: #000;
+}
+
+.stars-2 {
+    display: flex;
+}
+
+.stars-2 img {
+    width: 18px;
+    margin-right: 2px;
+}
+
+.feedback-2 {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    min-height: 70px;
+}
+
+.profile-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.avatar-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text-2 h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-text-2 p {
+    margin: 2px 0 0 0;
+    font-size: 12px;
+    color: #666;
+}
+
+
+/*---------- inside the card-3 ---------*/
+.name-3 {
+    font-size: 22px;
+    margin: 0;
+    color: #000;
+}
+
+.stars-3 {
+    display: flex;
+}
+
+.stars-3 img {
+    width: 18px;
+    margin-right: 2px;
+}
+
+.feedback-3 {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    min-height: 70px;
+}
+
+.profile-3 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.avatar-3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text-3 h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-text-3 p {
+    margin: 2px 0 0 0;
+    font-size: 12px;
+    color: #666;
+}
+
+    
+/* ----- PROUDLY CEBUANO SECTION --- */
+.proudly-cebuano {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 120px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+/*-------- LEARNIVERSE --------*/
+.logo-learniverse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    margin-top: 80px;
+    
+}
+
+.logo-learniverse img {
+    height: 132px;
+    width: 136px ;
+    object-fit: contain;
+    margin-bottom: 15px;
+} 
+
+.logo-learniverse h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo-learniverse p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/*---------- STELLAR ----------*/
+.logo-stellar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    margin-top: 80px;
+    
+}
+
+.logo-stellar img {
+    height: 132px; 
+    width: 136px;
+    object-fit: contain;
+    margin-bottom: 15px;
+} 
+
+.logo-stellar h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-stellar p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/*-------- GDG ---------*/
+.logo-GDG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    margin-top: 80px;
+    
+}
+
+.logo-GDG img {
+    height: 132px; 
+    width: 136px;
+    object-fit: contain;
+    margin-bottom: 15px;
+} 
+
+.logo-GDG h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-GDG p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/*--------- DEVCON ---------*/
+.logo-devcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    margin-top: 80px;
+    
+}
+
+.logo-devcon img {
+    height: 132px;
+    width: 136px;
+    object-fit: contain;
+    margin-bottom: 15px;
+} 
+
+.logo-devcon h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-devcon p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+/*--------- SUNSTAR ---------*/
+.logo-sunstar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    margin-top: 80px;
+    
+}
+
+.logo-sunstar img {
+    height: 132px;
+    width: 136px;
+    object-fit: contain;
+    margin-bottom: 15px;
+} 
+
+.logo-sunstar h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo-sunstar p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+
